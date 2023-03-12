@@ -8,7 +8,7 @@ const app = express();
 
 
 var corsOptions = {
-  origin: "https://now-acquire-frontend.vercel.app/"
+  origin: ["https://now-acquire-frontend.vercel.app/", "https://localhost:8080/", "https://app.getpostman.com/" , "https://now-acquire-frontend-34sx.vercel.app/" , "nowacquire.com"]
 };
 
 app.use(cors(corsOptions));
