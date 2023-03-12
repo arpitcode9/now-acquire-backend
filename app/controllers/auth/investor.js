@@ -35,7 +35,8 @@ const signup =  async(req, res) => {
         }
         else
         {   
-            res.status(200).send("Investor has been registered succesfully");
+            //res.send({ message: "User was registered successfully!" });
+            res.status(200).send({ message: "Investor has been registered succesfully. Please go to Login page. "});
         }
     });
 
@@ -103,7 +104,7 @@ const updateProfile = async(req, res) =>{
             }
             else
             {   
-                res.status(200).send("Investor Profile has been updated");
+                res.status(200).send({ message:"Investor Profile has been updated successfully"});
             }
         })
 
