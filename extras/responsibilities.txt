@@ -1,0 +1,22 @@
+login/signup  component 
+
+dashboard : ( investor / startup / startup view for investor )
+
+search API 
+
+buy / sell API 
+
+database design
+
+sample data
+
+graph : 
+
+backend : buy / sell API ; login/signup  component 
+
+
+1) database design 
+2) sample data 
+3) startup signin 
+4) buy sell api 
+

@@ -1,0 +1,159 @@
+proper : 
+
+actors : investor . startup owner 
+
+investor = {
+    logindetails = {
+        username( unique check )
+        password :
+    }
+
+    personalDetails = {
+        first name 
+        last name 
+        email id
+        phone number 
+        area code
+        PAN number 
+        aadhar number 
+        address
+
+    }
+
+    finacials = {
+    current portfolio value  U
+     investments : 
+     {
+        compnany 1 : {
+            name 
+            200 cr  : 2
+            company unique id
+            equity owned 3 %
+            current market value 6 cr
+            date of purchase = [
+                1st action = {
+                    buy/sell
+                    date 
+                    amount 
+                    percentage equity
+                }
+                2nd action = { 
+                    buy/sell 
+                    date
+                    amount 2cr
+                    percentage equity 1% 
+                }
+            ]
+        }
+     }
+    }
+
+    action history = {
+
+        june 
+        {
+            //total portfolio value for this monthend : number +2cr
+
+            actions: 
+            {
+                company name : 
+                date 
+                // buy / sell 
+                amount plus or minus 2cr      
+            }
+            {
+
+
+            }
+            {
+
+            }
+            
+
+        }
+        july 
+        august 
+    }
+
+    
+}
+
+startup = {
+    logindetails = {
+        username  : ( unique check ) 
+        password :
+    }
+
+    company details = {
+        name : 
+        prometer list = [
+            {
+                name 
+                phone 
+            }
+            {
+                name 
+                phone 
+            }
+        ]
+        regn no : 
+        official email :
+        contact number : 
+        address : 
+        industry  : fintech / foodtech / apparel 
+        date of incorporation : 
+        step : signedup 1 / filled details 2 /  under approval 3 / approved  4
+
+    }
+
+    finacials : 
+    {
+ //100 cr 
+   //     100 : 25 anup + 25 angel + 25 insti + 25 na 
+
+     //   t = d + e + f + c
+       // c= a+b
+
+M   current valuation = t 
+M   current promoter stake = d ( only promoter stake is given to now acquire ) 
+M   current angel stake = e 
+M   current institutional stake = f
+
+M   equity on nowAcquire  ( stake given to now acquire ) = c     2 
+    equity purchased by investors( equity already bought by investors ) = a
+    equity available currently  for investors to purchase on NA platform  ( equity still to be purchased by investors ) = b 
+
+   // c = a+b ; 
+
+
+current plan for this : 
+login user id , basic details required at signup 
+
+after signin startup goes to dashboard 
+
+on dashboard -> if 
+
+
+    investors : {
+        {
+            name : meghna 
+            equity owned : 1% 
+            current equity value : 1 cr 
+            //date of purchase : 
+
+
+        }
+        {
+            name : arpit 
+            equity owned : 1% 
+            current equity value : 1 cr 
+            //date of purchase : 
+
+
+        }
+    }
+
+    }
+
+}
+
