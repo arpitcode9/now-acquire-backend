@@ -34,7 +34,7 @@ const signup = async (req, res) => {
             return;
         }
         else {
-            res.status(200).send("Startup has been registered succesfully!!!");
+            res.status(200).send({ message:"Startup has been registered succesfully!!!"});
         }
     });
 
@@ -102,7 +102,7 @@ const updateProfile = async(req, res) =>{
             }
             else
             {   
-                res.status(200).send("Profile has been updated");
+                res.status(200).send({ message:"Startup Profile has been updated sucessfully"});
             }
         })
 
