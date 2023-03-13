@@ -11,12 +11,7 @@ const app = express();
 //   origin: ["https://now-acquire-frontend.vercel.app/", "https://localhost:8080/", "https://app.getpostman.com/" , "https://now-acquire-frontend-34sx.vercel.app/" , "nowacquire.com"]
 // };
 
-// allow all
-var corsOptions = {
- origin: ["*"]
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 //app.use(bodyParser.urlencoded({ extended: true }))
 
