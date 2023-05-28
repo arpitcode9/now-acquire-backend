@@ -21,6 +21,9 @@ const StartUpSchema = new Schema({
         match: /.+\@.+\..+/,
         unique: true
     },
+    modeOfReach: { type: String, required: true, unique: true },
+    agentName: { type: String, required: true, unique: true },
+    videoLink: { type: String },
     contactNo: { type: Number, required: true },
     address: String,
     industry: String,

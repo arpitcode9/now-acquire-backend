@@ -20,6 +20,9 @@ const signup = async (req, res) => {
         address: req.body.address,
         industry: req.body.industry,
         dateOfIncorp: req.body.dateOfIncorp,
+        modeOfReach : req.body.modeOfReach,
+        agentName : req.body.agentName,
+        videoLink : req.body.videoLink,
     }) 
 
     startUp.password = await bcrypt.genSalt(saltRounds)
