@@ -22,7 +22,7 @@ const StartUpSchema = new Schema({
         unique: true
     },
     modeOfReach: { type: String, required: true, unique: true },
-    agentName: { type: String, required: true, unique: true },
+    agentName: { type: String, required: false },
     videoLink: { type: String },
     contactNo: { type: Number, required: true },
     address: String,
