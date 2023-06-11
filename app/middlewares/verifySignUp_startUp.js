@@ -31,7 +31,12 @@ const checkDuplicateUsernameOrEmail = async (req, res, next) => {
     res.status(400).send({ message: "Failed! This registration number is already registered with NowAcquire" });
     return;
   }
-
+  if(req.body.modeOfReach === 'now-acquire-agent'){
+    if(!req.body.agentName){
+      res.status(400).send({ message: "Failed! Please enter Now-Acquire-Agent Name"});
+      return;
+    }
+  }
   next();
 }
 
